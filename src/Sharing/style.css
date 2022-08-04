@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.absimg {
+  width: 40px;
+  margin: 10px;
+}
+.text {
+  margin-top: 140px;
+}
+.call {
+  width: 25px;
+  height: 25px;
+  margin: 20px;
+}
+/* blog pages */
+.blogimg{
+  width: 100%;
+  height: 350px;
+}
+/* Navigation */
+.photo img{
+  
+  width: 40px;
+  height: 40px;
+  border: red solid 1px;
+}
+
+
+

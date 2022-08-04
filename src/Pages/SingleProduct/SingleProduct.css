@@ -1,0 +1,30 @@
+.SingleProduct{
+    background-color: white;
+    box-shadow: 4px 0px 4px 0px rgba(188, 188, 192);
+}
+.searchIcon{
+    width: 28px;
+    margin-top: -4px;
+    margin-left: -10px;
+}
+.singleBikeimg{
+    width: 500px;
+}
+.singleBike{
+    width: 100px;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid rgb(194, 188, 188);
+}
+.singleBikeapp{
+    width: 70px;
+    padding: 5px;
+    border: 2px solid rgb(194, 188, 188);
+}
+.taka{
+    width: 20px;
+}
+.like{
+    width: 40px;
+    cursor: pointer;
+}

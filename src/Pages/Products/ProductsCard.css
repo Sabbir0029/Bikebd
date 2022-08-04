@@ -1,0 +1,16 @@
+.card{
+    background-color: white;
+    box-shadow: 2px 0px 2px 0px rgba(228, 228, 231,0.9);
+}
+.bikeimg{
+    width: 280px;
+    height: 220px;
+}
+.star{
+    width: 100px;
+}
+.price{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(202, 206, 209);
+}

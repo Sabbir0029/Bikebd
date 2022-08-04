@@ -1,0 +1,23 @@
+.signInBox{
+    display: flex;
+    justify-content: center;
+    width: 420px;
+    box-shadow: 10px 4px 10px 4px rgb(176, 176, 180);
+    border-radius: 20px;
+}
+.google{
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: rgb(92, 89, 89) solid 1px;
+}
+.google img{
+    width: 25px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.left{
+    width: 35px;
+    margin-bottom: 5px;
+}
