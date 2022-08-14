@@ -5,7 +5,7 @@ const Products = () => {
   const [bikes, setbikes] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/bike")
+    fetch("https://floating-bastion-52391.herokuapp.com/bike")
       .then((res) => res.json())
       .then((data) => setbikes(data));
   }, []);

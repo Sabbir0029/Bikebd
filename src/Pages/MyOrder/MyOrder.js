@@ -8,7 +8,7 @@ const MyOrder = () => {
   const { user, isLoading } = useAuth();
 
   useEffect(() => {
-    fetch(`http://localhost:5000/booking?user=${user.email}`)
+    fetch(`https://floating-bastion-52391.herokuapp.com/booking?user=${user.email}`)
       .then((res) => res.json())
       .then((data) => setOrders(data));
   }, []);

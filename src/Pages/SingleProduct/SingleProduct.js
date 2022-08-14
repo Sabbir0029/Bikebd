@@ -19,7 +19,7 @@ const SingleProduct = () => {
   const { user } = useAuth();
 
   useEffect(() => {
-    const url = `http://localhost:5000/bike/${id}`;
+    const url = `https://floating-bastion-52391.herokuapp.com/bike/${id}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setSingleBike(data));
@@ -33,7 +33,7 @@ const SingleProduct = () => {
       number: e.target.phoneNumber.value,
       address: e.target.address.value,
     };
-    fetch("http://localhost:5000/booking", {
+    fetch("https://floating-bastion-52391.herokuapp.com/booking", {
       method: "POST",
       headers: {
         "content-type": "application/json",
