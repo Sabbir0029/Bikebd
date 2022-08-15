@@ -1,0 +1,20 @@
+.icon{
+    width: 35px;
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+}
+.footertext{
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+}
+.footertext:hover{
+    color: black;
+    background-color: azure;
+    font-weight: bold;
+}

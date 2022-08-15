@@ -1,17 +1,17 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home/Home";
-import Header from "./Pages/Header/Header";
 import Register from "./Pages/Authentication/Register/Register";
 import Login from "./Pages/Authentication/Login/Login";
 import AuthProvider from "./Contexts/AuthProvider/AuthProvider";
 import SingleProduct from "./Pages/SingleProduct/SingleProduct";
 import PrivateRoute from "./Pages/PrivateRoute/PrivateRoute";
 import Payment from "./Pages/Payment/Payment";
-import { ToastContainer } from 'react-toastify';
-
-  import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import MyOrder from "./Pages/MyOrder/MyOrder";
+
+
 function App() {
   return (
     <div className="App">

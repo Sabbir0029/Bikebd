@@ -27,7 +27,10 @@ const Blog = () => {
             <div className="card">
               <img src={blog1} className="card-img-top blogimg" alt="..." />
               <div className="card-body">
-                <p className="card-title"><span className="text-danger fw-bold">TRAVEL</span> / POST BY ADMIN</p>
+                <p className="card-title">
+                  <span className="text-danger fw-bold">TRAVEL</span> / POST BY
+                  ADMIN
+                </p>
                 <h5 className="card-text">
                   This is a longer card with supporting text below as a natural
                   lead-in to additional content. This content is a little bit
@@ -40,7 +43,10 @@ const Blog = () => {
             <div className="card">
               <img src={blog2} className="card-img-top blogimg" alt="..." />
               <div className="card-body">
-              <p className="card-title"><span className="text-danger fw-bold">RIDING</span> /  POST BY ADMIN</p>
+                <p className="card-title">
+                  <span className="text-danger fw-bold">RIDING</span> / POST BY
+                  ADMIN
+                </p>
                 <h5 className="card-text">
                   This is a longer card with supporting text below as a natural
                   lead-in to additional content. This content is a little bit
@@ -53,7 +59,10 @@ const Blog = () => {
             <div className="card">
               <img src={blog3} className="card-img-top blogimg" alt="..." />
               <div className="card-body">
-              <p className="card-title"><span className="text-danger fw-bold">CROSS-COUNTRY</span> /  POST BY ADMIN</p>
+                <p className="card-title">
+                  <span className="text-danger fw-bold">CROSS-COUNTRY</span> /
+                  POST BY ADMIN
+                </p>
                 <h5 className="card-text">
                   This is a longer card with supporting text below as a natural
                   lead-in to additional content. This content is a little bit
