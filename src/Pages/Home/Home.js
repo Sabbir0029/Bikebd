@@ -8,7 +8,6 @@ import Feature from '../Feature/Feature';
 import Header from '../Header/Header';
 import Products from '../Products/Products';
 import Icon from '../../Sharing/icon/Icon';
-import Slick from '../Slick/Slick';
 
 const Home = () => {
     useEffect(()=>{
@@ -29,7 +28,6 @@ const Home = () => {
             <div data-aos="flip-right">
             <Blog />
             </div>
-            {/* <Slick/> */}
             <Icon/>
             <div data-aos="flip-left">
             <Footer/>

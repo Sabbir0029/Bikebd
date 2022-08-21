@@ -13,6 +13,23 @@ const MyOrder = () => {
       .then((data) => setOrders(data));
   }, []);
 
+  const handelBtnDelete = (id) => {
+    const prossed = window.confirm("confirm deleted");
+    if (prossed) {
+      const url = `https://floating-bastion-52391.herokuapp.com/booking/${id}`;
+      fetch(url,{
+        method:'DELETE'
+      })
+      .then(res => res.json())
+      .then(data=>{
+        if(data.deletedCount > 0){
+          const remaining = orders.filter(order=> order._id !== id);
+          setOrders(remaining);
+        }
+      })
+    }
+  };
+
   return (
     <div className="bgcolor">
       <Navigation/>
@@ -29,7 +46,7 @@ const MyOrder = () => {
         </div>
       )}
       {orders.map((order) => (
-        <OrderCard key={order._id} order={order}></OrderCard>
+        <OrderCard key={order._id} handelBtnDelete={handelBtnDelete} order={order}></OrderCard>
       ))}
     </div>
     </div>
